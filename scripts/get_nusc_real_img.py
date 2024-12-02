@@ -74,7 +74,7 @@ if __name__ == "__main__":
                                               pin_memory = False)
 
     
-    base_path = os.path.join('samples_256x384')
+    base_path = os.path.join('samples_real_256x384')
     if not os.path.exists(base_path):
         os.makedirs(base_path, exist_ok=True)
 

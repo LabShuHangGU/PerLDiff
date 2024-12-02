@@ -2,8 +2,7 @@
 
 # perldiff 256x384, trained by bs2x8, iter 60000
 export TOKENIZERS_PARALLELISM=false
-# CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7"
-CUDA_VISIBLE_DEVICES="0"
+export CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7" 
 OMP_NUM_THREADS=16 torchrun \
             --nproc_per_node=1 main.py \
             --training \
