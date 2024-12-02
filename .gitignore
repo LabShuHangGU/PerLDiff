@@ -1,0 +1,11 @@
+DATA/
+OUTPUT/
+openai/clip-vit-large-patch14
+saved/
+test_data_256_384_image_15/
+train_samples/
+# val_samples/
+ossutil_output/
+.ossutil_checkpoint/
+openai
+val_ddim50w5_256x704_box_mask_scene_mask_lambda_5_bs1x8/
