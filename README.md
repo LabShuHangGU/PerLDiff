@@ -112,7 +112,6 @@ Finally, you should have these files:
 ```bash
         DATA/nuscenes
         ├── maps
-        ├── mini
         ├── samples
         ├── samples_road_map
         ├── v1.0-mini
