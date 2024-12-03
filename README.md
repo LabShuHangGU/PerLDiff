@@ -92,13 +92,13 @@ We prepare the nuScenes dataset similarly to the instructions in [BEVFormer](htt
 
 There are two options to prepare the `samples_road_map`:
 
-**Option 1: Use the provided script**
+**Option 1: Use the provided script (time-consuming, not recommended)**
 - Run the following Python script to download and prepare the road map:
   
   ```bash
   python scripts/get_nusc_road_map.py
 
-**Option 2: Download from Hugging Face**
+**Option 2: Download from Hugging Face (recommended)**
 - Alternatively, you can download the `samples_road_map` from Hugging Face [here](https://huggingface.co/longyer/PerLDiff/blob/main/samples_road_map.tar.gz).
 
     After downloading the `samples_road_map.tar.gz` file, extract it using the following command:
