@@ -301,9 +301,6 @@ class Trainer:
             elif ("transformer_blocks" in name) and ("attn_back" in name):
                 params.append(p) 
                 trainable_names.append(name)
-            elif ("transformer_blocks" in name) and ("norm_back" in name):
-                params.append(p) 
-                trainable_names.append(name)
             elif ("transformer_blocks" in name) and ("attn2" in name):
                 params.append(p) 
                 trainable_names.append(name)
