@@ -82,9 +82,8 @@ We prepare the nuScenes dataset similarly to the instructions in [BEVFormer](htt
 ```bash
         DATA/nuscenes
         ├── maps
-        ├── mini
         ├── samples
-        ├── v1.0-mini
+        ├── v1.0-test
         └── v1.0-trainval
 ```
 
@@ -114,7 +113,7 @@ Finally, you should have these files:
         ├── maps
         ├── samples
         ├── samples_road_map
-        ├── v1.0-mini
+        ├── v1.0-test
         └── v1.0-trainval
 ```
 
