@@ -121,9 +121,17 @@ Finally, you should have these files:
 
 
 ### Training
+Before training, download provided pretrained checkpoint on [Hugging Face](https://huggingface.co/longyer/PerLDiff). Finally, you should have these checkpoints:
 
-A training script for reference is provided in `bash_run_train.sh`.
-
+```bash
+PerLDiff/
+    openai
+    DATA/
+    ├── nuscenes
+    ├── convnext_tiny_1k_224_ema.pth
+    ├── sd-v1-4.ckpt
+```
+A training script for reference is provided in `bash_run_train.sh`. 
 ```bash
 export TOKENIZERS_PARALLELISM=false
 export CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7" 
@@ -140,9 +148,9 @@ OMP_NUM_THREADS=16 torchrun \
             --save_every_iters=6000 \
 ```
 
-### Pretrained Models
+### Evaluation and Visualize
 
-We provide the checkpoint of PerLDiff on [Hugging Face](https://huggingface.co/longyer/PerLDiff). Finally, you should have these checkpoints:
+Before testing, download provided PerLDiff checkpoint on [Hugging Face](https://huggingface.co/longyer/PerLDiff). You should have these checkpoints:
 
 ```bash
 PerLDiff/
@@ -153,9 +161,6 @@ PerLDiff/
     ├── perldiff_256x384_lambda_5_bs2x8_model_checkpoint_00060000.pth
     ├── sd-v1-4.ckpt
 ```
-
-
-### Evaluation and Visualize
 A testing script for reference is provided in `bash_run_test.sh`.
 ```bash
 export TOKENIZERS_PARALLELISM=false
