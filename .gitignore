@@ -1,0 +1,10 @@
+DATA/
+OUTPUT/
+openai/clip-vit-large-patch14
+saved/
+train_samples/
+# val_samples/
+ossutil_output/
+.ossutil_checkpoint/
+openai
+*/__pycache__/*
