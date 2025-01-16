@@ -30,6 +30,7 @@ Moreover, it demonstrates superior controllability compared to alternative layou
 ## News
 - [2024.7.8] ✨  Paper Released!
 - [2024.12.2] Code base and checkpoints are released!
+- [2025.1.16] Training code released for KITTI dataset; checkpoint preparation is underway.
 
 ## Setup
 
