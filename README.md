@@ -24,9 +24,12 @@
 
 
 ## News
-- [2024.7.8] ✨  Paper Released!
-- [2024.12.2] Code base and checkpoints are released!
-- [2025.1.16] Training code released for KITTI dataset; checkpoint preparation is underway.
+
+- 📄 **[2024.07.08]** Paper preprint released!
+- 💾 **[2024.12.02]** Codebase and model checkpoints are now available.
+- 🏁 **[2025.01.16]** Training code for the KITTI dataset has been released.
+- 🏆 **[2025.06.26]** Our paper has been accepted to **ICCV 2025**!
+
 
 ## Setup
 
