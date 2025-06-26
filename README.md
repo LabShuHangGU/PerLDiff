@@ -1,24 +1,26 @@
-# PerLDiff：Controllable Street View Synthesis Using Perspective-Layout Diffusion Models (ICCV 2025)
-This repository is the official PyTorch implementation of PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Models.
+<div align="center">
+<h2> PerLDiff：Controllable Street View Synthesis Using Perspective-Layout Diffusion Models (ICCV 2025)
+</h2>
 
-**[PerLDiff：Controllable Street View Synthesis Using Perspective-Layout Diffusion Models](https://arxiv.org/abs/2407.06109)**
 
 [Jinhua Zhang](https://scholar.google.com/citations?user=tyYxiXoAAAAJ), [Hualian Sheng](https://scholar.google.com/citations?user=73JaDUQAAAAJ&hl=zh-CN&oi=sra), [Sijia Cai](https://scholar.google.com/citations?user=LMVeRVAAAAAJ&hl=zh-CN&oi=sra), [Bing Deng](https://scholar.google.com/citations?user=VQp_ye4AAAAJ&hl=zh-CN&oi=sra), [Qiao Liang](https://scholar.google.com/citations?user=-Hv_dPkAAAAJ&hl=zh-CN), [Wen Li](https://scholar.google.com/citations?user=yjG4Eg4AAAAJ&hl=zh-CN), [Ying Fu](https://scholar.google.com/citations?user=PE4xMlkAAAAJ&hl=zh-CN), [Jieping Ye](https://scholar.google.com/citations?user=T9AzhwcAAAAJ&hl=zh-CN), [Shuhang Gu](https://scholar.google.com/citations?user=-kSTt40AAAAJ&hl=zh-CN)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2407.06109-b31b1b.svg)](https://arxiv.org/pdf/2407.06109v3)
 [![GitHub Stars](https://img.shields.io/github/stars/LabShuHangGU/PerlDiff?style=social)](https://github.com/LabShuHangGU/PerlDiff)
 
+</div>
+
+⭐If this work is helpful for you, please help star this repo. Thanks!🤗
+
+
+<p align="center">
+<img src="assert/img/perldiff_2.png" style="border-radius: 15px">
 
 <p align="center">
 <img src="assert/img/intro_2.png" width="1080px"/>  
 <br>
 </p>
 
-<p align="center">
-<img src="assert/img/perldiff_2.png" width="1080px"/>  
-<br>
-<em>PerLDiff utilizes perspective layout masking maps derived from 3D annotations to integrate scene information and object bounding boxes for multi view street scene generation</em>
-</p>
 
 ## News
 - [2024.7.8] ✨  Paper Released!
