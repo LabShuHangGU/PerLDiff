@@ -14,12 +14,13 @@
 
 
 <p align="center">
-<img src="assert/img/perldiff_2.png" style="border-radius: 15px">
+  <img src="assert/img/perldiff_2.png" width="80%" style="border-radius: 15px">
+</p>
 
 <p align="center">
-<img src="assert/img/intro_2.png" width="1080px"/>  
-<br>
+  <img src="assert/img/intro_2.png" width="80%" style="border-radius: 15px">
 </p>
+
 
 
 ## News
