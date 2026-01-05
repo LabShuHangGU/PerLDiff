@@ -226,11 +226,12 @@ We provide two methods for measuring FID:
 ## Citation
 
 ```
-@article{zhang2024perldiff,
-  title={PerlDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Models},
+@inproceedings{zhang2025perldiff,
+  title={PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model},
   author={Zhang, Jinhua and Sheng, Hualian and Cai, Sijia and Deng, Bing and Liang, Qiao and Li, Wen and Fu, Ying and Ye, Jieping and Gu, Shuhang},
-  journal={arXiv preprint arXiv:2407.06109},
-  year={2024}
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={26306--26315},
+  year={2025}
 }
 ```
 
